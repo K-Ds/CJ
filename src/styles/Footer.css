@@ -1,0 +1,56 @@
+.footer-container {
+  padding: 4rem;
+  background-color: #a8b49e;
+  color: #152f4e;
+  font-weight: 500;
+  font-size: 1.1rem;
+  font-family: 'Brandon Text Medium', sans-serif;
+}
+
+.footer-top {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  margin-bottom: 3rem;
+}
+
+.header {
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #044064;
+}
+
+.contacts-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
+.contact-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-item {
+  padding: 0.3rem 0;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  gap: 0.3rem;
+  margin: 1rem 0;
+}
+
+.commitment_text {
+  font-size: 1rem;
+}
+.link-item {
+  border-right: #152f4e solid 1px;
+  padding-right: 0.5rem;
+}
+
+.copyright {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+}
